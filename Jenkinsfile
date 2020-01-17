@@ -2,7 +2,7 @@ node {
 def mvnhome
 stage("checkout")
 {
-git 'https://github.com/bheem25kyack/course.git'
+git 'https://github.com/slokakish/hello-world-war.git'
 }
 mvnhome = tool 'MAVEN_HOME'
 stage ("compilation")
